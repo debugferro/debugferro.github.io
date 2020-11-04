@@ -1,0 +1,138 @@
+body {
+  color: #454545;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #F5F9E9;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #34344A
+}
+
+ul {
+  list-style-type: none;
+}
+
+header h1 {
+  margin: 0 auto;
+}
+
+header h2 {
+  margin: 0 auto;
+}
+
+header {
+  width: 50%;
+  margin: 0 auto;
+  padding: 11px;
+}
+
+ul {
+  padding: 0px;
+}
+
+.rounded-image {
+  border-radius: 50%;
+  width: 40%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.black-card-line {
+  border: 6px solid black;
+  width: 60%;
+  margin: 0 auto;
+}
+
+#text-padding {
+  padding: 2px;
+  margin: 0 auto;
+}
+
+.white-card {
+  margin: 0 auto;
+  padding: 18px;
+  width: 50%;
+  margin-top: 25px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 2px 2px 10px rgba(52, 52, 74, 0.5);
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+
+  header {
+    width: 100%;
+  }
+
+  .black-card-line {
+    width: 80%;
+  }
+
+  .container {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .white-card {
+  margin: 0 auto;
+  padding: 18px;
+  width: 100%;
+  margin-top: 25px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 2px 2px 10px rgba(52, 52, 74, 0.5);
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  body {
+    margin: 0;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .white-card {
+  margin: 0 auto;
+  padding: 18px;
+  width: 100%;
+  margin-top: 25px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 2px 2px 10px rgba(52, 52, 74, 0.5);
+  }
+}
